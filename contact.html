@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel= "stylesheet" href="css/style.css">
+    <title>Contact</title>
+  </head>
+  <body class= "whole_contact_page">
+    <header id="header" class="grid">
+    
+    <div class = "container">
+      <div id="skip">
+        <a href="#content">Skip to main content</a>
+        </div>
+    
+
+      <nav id = "nav_bar">
+        <ul>
+          <li><a href = "index.html">About Me</a></li>
+          <li><a href = "coffee.html">Coffee</a></li>
+          <li><a href = "Espresso.html">Espresso</a></li>
+          <li><a href = "Tea.html">Tea</a></li>
+          <li><a class = "current" href = "contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+
+    <!--Main Area-->
+    <main id="main">
+    <section id= "CTsection-a" class="grid">
+    <div class = "container">
+        
+        <div class="about-image"></div>
+        
+       
+   </section>
+     
+   
+<div class="overlay">
+    <form onsubmit="event.preventDefault(), validateFrom()">
+        <h1>Contact Us</h1>
+        <label for="name" >Name:</label>
+        <input type = "text" id= "name" placeholder="Your name">
+        <small class= "error"></small>
+
+        
+        <label for="name"> Email:</label>
+        <input type = "text" id= "Your email" placeholder="Your email">
+        <small class= "error"></small>
+        <label for="name"> Message:</label>
+        <textarea type = "text" id= "Message" placeholder="Enter Message" rows = 6> </textarea>
+        <small class= "error"></small>
+
+        <div class="center-form">
+            <input type="submit" value= "Send Message">
+        </div>
+
+    </form>
+</div>
+<script scr = script.js></script>
+</main>
+</body>

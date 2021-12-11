@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel= "stylesheet" href="css/style.css">
+    <title>Contact</title>
+  </head>
+  <body>
+    <header id="header" class="grid">
+    
+    <div class = "container">
+      <div id="skip">
+        <a href="#content">Skip to main content</a>
+        </div>
+    
+
+      <nav id = "nav_bar">
+        <ul>
+          <li><a href = "index.html">About Me</a></li>
+          <li><a href = "coffee.html">Coffee</a></li>
+          <li><a href = "Espresso.html">Espresso</a></li>
+          <li><a href = "Tea.html">Tea</a></li>
+          <li><a class = "current" href = "contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+
+    <!--Main Area-->
+    <main id="main">
+    <section id= "Tsection-a" class="grid">
+    <div class = "container">
+        
+        <div class="about-image"></div>
+        <h1>Get in touch! </h1>
+       
+   </section>
+     
+   
+</div>
+
+  
+   <div class="parent">
+
+    <div class="item" style="background: url(imgs/contact_cover) center center no-repeat; background-size: cover; "></div>
+
+      
+ 
+    
+    
+    
+  </div>
